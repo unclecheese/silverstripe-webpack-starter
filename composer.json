@@ -1,5 +1,4 @@
 {
-    "name": "littlegiant/redux",
     "require": {
 		"php": ">=5.3.3",
 		"silverstripe/cms": "3.2.1",
