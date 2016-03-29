@@ -8,3 +8,16 @@ SSViewer:
 
 Image:
   force_resample: true
+
+---
+Only:
+  environment: dev
+---
+SiteConfig:
+  cms_logo: 'themes/base/source/images/cms_logo.png'
+---
+Except:
+    environment: dev
+---
+SiteConfig:
+  cms_logo: 'themes/base/production/images/cms_logo.png'

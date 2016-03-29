@@ -78,7 +78,7 @@ function autoPrefixLoader() {
 var loaders = [
   {
     test: /\.js$/,
-    loaders: ['react-hot', 'babel'],
+    loaders: ['babel'],
     exclude: EXCLUDE_JS,
     include: __dirname
   },
