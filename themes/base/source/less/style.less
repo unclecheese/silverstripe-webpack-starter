@@ -2,8 +2,13 @@
 @import "vars.less";
 
 body {
-	background: red;
-}
-h1 {
-	color: red;
+	h2 {
+		display:none;
+		color: red;
+		&+h2 {
+			display:block;
+			color:green;
+		}
+	}
+
 }
