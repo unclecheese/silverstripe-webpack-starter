@@ -1,6 +1,6 @@
 # Starter kit for Webpack and SilverStripe workflow
 
-A refined version of Stevie Mayhew's [silverstripe-redux-example](https://github.com/stevie-mayhew/silverstripe-redux-example) that uses Bootstrap and jQuery, withour React/Redux.
+A refined version of Stevie Mayhew's [silverstripe-redux-example](https://github.com/stevie-mayhew/silverstripe-redux-example) that uses Bootstrap and jQuery, without React/Redux.
 
 ## Getting started
 
