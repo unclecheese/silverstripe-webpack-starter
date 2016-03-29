@@ -1,18 +1,21 @@
-<% include Head %>
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
 <body class="page">
-  <% include PrimaryNav %>
+  <head>
+    <% base_tag %>
+    $MetaTags
+    <% if not $WebpackDevServer %>
+      <link rel="stylesheet" type="text/css" href="$HashPath('production/css/main.css')">
+    <% end_if %>
+  </head>
   <div class="header-and-main">
-    <% include Header %>
-    <header class="page-title">
-      <div class="wrapper">
-        <h1 class="reversed ct"><% if $MenuTitle %>$MenuTitle<% else %>$Title<% end_if %></h1>
-      </div><!-- .wrapper -->
-    </header><!-- .page-title -->
     <main class="main" role="main">
       $Layout
-    </main><!-- .main-content -->
-  </div><!-- .header-and-main -->
-  <% include Footer %>
+    </main>
   <% include Page_Scripts %>
 </body>
 </html>

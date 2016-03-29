@@ -6,8 +6,5 @@ After: 'framework/*','cms/*'
 SSViewer:
   theme: 'base'
 
-SiteTree:
-  create_default_pages: false
-
 Image:
   force_resample: true
